@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-learning",
+  "version": "1.0.0",
+  "description": "NodeJS Learning",
+  "private": true,
+  "homepage": "https://github.com/muradhaji/nodejs-learning#readme",
+  "bugs": {
+    "url": "https://github.com/muradhaji/nodejs-learning/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muradhaji/nodejs-learning.git"
+  },
+  "workspaces": [
+    "projects/*"
+  ],
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
